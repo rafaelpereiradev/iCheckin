@@ -6,6 +6,7 @@ export default function TwoInputs({flexDirection}:TwoInputs) {
   return (
     <Box flexDirection={flexDirection}>
 
+
     </Box>
   )
 }
