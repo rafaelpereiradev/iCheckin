@@ -1,11 +1,14 @@
 import { createTheme } from "@mui/material";
 import textTheme from "./TextTheme";
+import ColorTheme from './ColorTheme'
+import RootTextFieldTheme from './root-theme/RootTextField';
 
+const {palette} = ColorTheme
+const { MuiTextField } = RootTextFieldTheme;
 
-export default function DefaultTheme() {
-    const theme = createTheme({
-    
-
-    })
-
-}
+export const DefaultTheme = createTheme({
+    palette,
+    components:{
+        MuiTextField,
+    }
+})
