@@ -1,4 +1,5 @@
-import { Box, Text, TextField } from '../index'
+import { Box, Text, TextField, Button,LoadingButton} from '../index';
+import Logo from '../../assets/ichekin.png';
 type LoginTemplate = {
     children?: JSX.Element
 }
