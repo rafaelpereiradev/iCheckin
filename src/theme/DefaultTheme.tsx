@@ -1,11 +1,12 @@
-import { createTheme } from "@mui/material";
-import textTheme from "./TextTheme";
+import { createTheme } from '@mui/material';
+import ColorTheme from './ColorTheme';
+const { palette } = ColorTheme;
+
+export const DefaultTheme = createTheme({
+  palette,
+  components: {
+  }
+});
 
 
-export default function DefaultTheme() {
-    const theme = createTheme({
-    
-
-    })
-
-}
+export default DefaultTheme

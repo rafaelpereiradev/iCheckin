@@ -1,12 +1,13 @@
-import { createTheme } from "@mui/material";
+export {}
+// import { createTheme } from "@mui/material";
 
-function textTheme(){
-    const typographyTheme = createTheme({
-        typography:{
+// function textTheme(){
+//     const typographyTheme = createTheme({
+//         typography:{
             
-        }
-    })
-    return typographyTheme
-}
+//         }
+//     })
+//     return typographyTheme
+// }
 
-export default textTheme
+// export default textTheme

@@ -3,9 +3,11 @@ type LoginTemplate = {
     children?: JSX.Element
 }
 
+
+
 export default function LoginTemplate({ children }: LoginTemplate) {
     return (
-        <Box display='flex' flexDirection='column' height='200px' mt={20} width='100%' flexWrap='wrap' justifyContent='space-evenly' alignItems='center'>
+        <Box display='flex' height='100vh' width='100vw'  sx={{backgroundColor:'#145369'}}>
             {children}
         </Box>
     )
