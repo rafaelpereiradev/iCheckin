@@ -7,12 +7,15 @@ export default function Login() {
         form={{
           formFields: [
             {
-              placeholder:'login',
-              variant:'outlined',
+              placeholder: 'Usuário',
+              label:'Usuário',
+              variant: 'outlined',
             },
             {
-              placeholder:'senha',
-              variant:'outlined',
+              placeholder: 'Senha',
+              label:'Senha',
+              type:'password',
+              variant: 'outlined',
             }
           ]
         }}

@@ -8,10 +8,14 @@ const TextFieldTheme: Components<Omit<Theme, 'components'>> = {
         variants: TextFieldThemeVariants,
         styleOverrides: {
             root: {
-                "& .MuiOutlinedInput-root.Mui-focused": {
+                '& .MuiOutlinedInput-root.Mui-focused': {
                     "& > fieldset": {
                         borderColor: palette.secondary.value
                     }
+                },
+                '& .MuiOutlinedInput-root':{
+                    borderRadius:'8px',
+                    height:'50px'
                 }
             }
         }

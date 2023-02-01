@@ -1,7 +1,9 @@
-import { Grid, Box, Typography, TextFieldProps } from '@mui/material'
+import { Grid, Box, Typography, Switch, Button} from '@mui/material'
 import Logo from '../../components/atoms/logo/Logo'
 import backgroundLogin from '../../components/atoms/images/backgroundLogin.svg'
 import SimpleForm,{SimpleFormType} from '../../components/molecules/simple-form/SimpleForm'
+import { LoadingButton } from '@mui/lab'
+import { Link } from 'react-router-dom'
 
 
 type LoginTemplateType = {
@@ -21,7 +23,6 @@ export default function LoginTemplate({ form }: LoginTemplateType) {
             <Box
                 sx={{
                     backgroundColor: '#fff',
-                    width: '408px',
                     height: '434px',
                     display: 'flex',
                     padding: '32px',
@@ -39,7 +40,12 @@ export default function LoginTemplate({ form }: LoginTemplateType) {
                         marginTop:'21px'
                     }}
                     />
-                    
+                    <Box width='100%' display='flex' alignItems='baseline'>
+                    <Switch color='primary' sx={{marginTop:'32px'}}/>
+                    <Typography color='#7B809A'>Lembrar-me</Typography>
+                    </Box>
+                    <LoadingButton variant='contained' children='login' sx={{marginTop:'32px'}}/>
+                    <Typography align='center' color='#7B809A' marginTop='28px'>Ainda não tem uma conta? <Button href='' style={{ textDecoration: 'none', }}>Crie agora</Button></Typography>
                 </Box>
             </Box>
         </Grid>
