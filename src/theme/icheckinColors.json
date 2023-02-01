@@ -1,0 +1,15 @@
+{
+    "palette": {
+        "primary": {
+            "value": "#E93B6F",
+            "contrastText":"#fff"
+        },
+        "secondary": {
+            "value": "#242424",
+            "contrastText":"#fff"
+        },
+        "whites":{
+            "white":"#fff"
+        }
+    }
+}
