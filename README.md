@@ -1,3 +1,3 @@
 # icheckin-frontend
-Aplicação de check-in em festas e eventos.
+Frontend da aplicação de check-in em festas e eventos.
 
